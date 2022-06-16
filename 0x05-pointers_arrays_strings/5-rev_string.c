@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * rev_string - Reverses a string
- * @s: string to be reversed
+ * rev_string - Reverses a string.
+ * @s: string to be reserved.
  */
 void rev_string(char *s)
 {
@@ -15,7 +15,7 @@ void rev_string(char *s)
 	for (i = len - 1; i >= len / 2; i--)
 	{
 		tmp = s[i];
-		s[i] = s[len - i -1];
-		s[len - 1 - 1] = tmp;
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = tmp;
 	}
 }
